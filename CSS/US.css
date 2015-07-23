@@ -1,0 +1,159 @@
+body {
+	background-color: #DFF0EE;
+	color: #17FC35;
+	margin-top: 0px;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 10px auto 0px auto;
+	height: 960px;
+	outline: 1px solid #7B7F00;
+}
+
+#logo {
+	height: 120px;
+	width: 260px;
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+header > h1{
+	text-align: center;
+	color: black;
+}
+
+header h2{
+	text-align: center;
+	color: black;
+}
+
+
+nav {
+	background-color: #64666B;
+	height: 50px;
+	padding: 1px;
+	position: inline;
+}
+
+ul.navList li {
+	display: inline;
+	margin-right: 10px;
+	/*border: 1px solid red;*/
+	padding: 0px 5px 0px 5px;
+	font-weight: bolder;
+}
+
+ul.navList li:hover {
+	background-color: #FFFFFF;
+}
+
+ul.navList li a {
+	color: red;
+}
+
+li > a {
+	text-decoration: none;
+}
+
+
+/*worling on section elements (1-2)*/
+
+#sectionOne {
+	width: 592px;
+	height: 890px;
+	border-right-style: groove;
+	/*border: 2px solid blue;*/
+	float: left;
+	color: black;
+}
+
+#sectionOne h2 {
+	color: #334C80;
+	font-size: 150%;
+	padding: 10px;
+	letter-spacing: 0.1em;
+	text-decoration: underline;
+	text-indent: 8px;
+	cursor: pointer;
+	background: url(../images/plus.png) no-repeat left center;
+	width: auto;
+}
+
+#sectionOne h2.minus {
+	font-size: 150%;
+	padding: 10px;
+	letter-spacing: 0.1em;
+	text-decoration: underline;
+	text-indent: 8px;
+	cursor: pointer;
+	background: url(../images/minus.png) no-repeat left center;
+	width: auto;
+}
+#sectionOne article{
+	display:none;
+}
+
+#sectionOne article.open {
+	display: inline;
+	padding-top: 20px;
+	margin: 0px;
+}
+
+#sectionOne article p{
+	text-indent: 30px;
+	background-color: #E6E6E6;
+	color: #000000;
+	padding: 20px;
+}
+
+
+aside {
+	float: left;
+	width: 400px;
+	height: 300px;
+	/*border: 2px solid red;*/
+	color: black;
+}
+
+article > p {
+	font-family: sans-serif;
+	line-height: 200%;
+}
+
+aside  > * {
+	padding-left: 10px;
+}
+/*Footer action*/
+
+footer {
+	clear: both;
+	background-color: #BFE309;
+	color: black;
+	height: 20px;
+	text-align: center;
+}
+
+
+/*miscalenous informatoin*/
+
+ul.misc li {
+	list-style-type: none;
+	position: relative;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	text-align: center;	
+}
+
+ul.misc a:hover {
+	background-color: blue;
+	color: white;
+}
+
+.testingText {
+	background-color: red;
+	color: blue;
+	margin-left: -10px;
+}
+
+/*this is copied from the index.css file*/

@@ -1,0 +1,110 @@
+body {
+	background-color: #E7F0F0; 
+}
+
+.school-names {
+	background-color: silver;
+	font-size: 150%;
+	list-style: none;
+	clear: both;
+	border: 1px solid;
+	margin: 0px auto 20px auto;
+	width: 200px;
+	height: 40px;
+}
+
+nav {
+	background-color: #64666B;
+	height: 50px;
+	padding: 1px;
+}
+
+ul.navList {
+	list-style-type: none;
+}
+
+ul.navList li {
+	display: inline;
+	margin-right: 10px;
+	/*border: 1px solid red;*/
+	padding: 0px 5px 0px 5px;
+	font-weight: bolder;
+}
+
+ul.navList li a {
+	color: red;
+}
+
+ul.misc li a:visited {
+	color: #FFCC99;
+}
+ul.navList li:hover {
+	background-color: #FFFFFF;
+}
+
+.school-names li {
+	line-height: 1.5;
+	display: inline;
+	margin: 0px 10px;
+}
+
+.school-names li a:link {
+	color: #705562;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+.school-names li a:hover {
+	color: blue;
+}
+
+.school-names li a {
+	color: #FFFFFF;
+}
+
+.current-school {
+	font-size: 250%;
+	color: #B20000;
+	display: block;
+	clear: both;
+	width: 300px;
+	height: 70px;
+	background-color: black;
+	margin: auto;
+	text-indent: 80px;
+	padding-top: 10px;
+}
+
+.table-content {
+	font-family: Arial, Helvetica, sans-serif, "Trebuchet MS";
+	background-color: black;
+	width: 400px;
+	height: 350px;
+	border: 1px solid;
+	margin: 50px auto 0px auto;
+}
+
+.table-content tr th {
+	
+	color:#BFE309;
+	background-color: red;
+	padding: 10px 0px 10px 0px;
+}
+
+.table-content tr td {
+	color: #003300;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-indent: 20px;
+}
+
+.table-content tr td.class-names {
+	background-color: white;
+	width: 250px;
+	padding-top: 20px;
+}
+
+.table-content tr td.year {
+	background-color: #BABAD1;
+}

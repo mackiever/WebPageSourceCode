@@ -1,0 +1,161 @@
+body {
+	background-color: #DFF0EE;
+	color: #17FC35;
+	margin-top: 0px;
+
+}
+
+#wrapper {
+	width: 1000px;
+	height: 960px;
+	margin: 10px auto 0px auto;
+	outline: 1px solid #7B7F00;
+}
+
+#logo {
+	height: 120px;
+	width: 260px;
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+header > h1{
+	text-align: center;
+	color: black;
+}
+
+header h2{
+	text-align: center;
+	color: black;
+}
+
+
+nav {
+	background-color: #64666B;
+	height: 50px;
+	padding: 1px;
+	position: inline;
+}
+
+ul.navList li {
+	display: inline;
+	margin-right: 10px;
+	/*border: 1px solid blue;*/
+	padding: 0px 5px 0px 5px;
+	font-weight: bolder;
+}
+
+ul.navList li:hover {
+	background-color: #FFFFFF;
+}
+
+ul.navList li a {
+	color: red;
+}
+
+li > a {
+	text-decoration: none;
+}
+
+
+/*worling on section elements (1-2)*/
+
+#sectionOne {
+	width: 592px;
+	height: 890px;
+	border-right-style: groove;
+	/*border: 2px solid blue;*/
+	float: left;
+	color: black;
+}
+
+#tabs ul {
+	list-style-type: none;
+	background-color: #DADADA;
+	height: 40px;
+	margin: 0px;
+	border: 1px double #C5C5C5;
+}
+
+#tabs ul li {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	background-color: #F3F3F3;
+	position: relative;
+	top: 35%;
+	border: 1px double #C5C5C5;
+}
+
+#tabs ul li:hover {
+	background-color:#FFFFFF;
+}
+
+#tabs ul li a {
+	margin-bottom: 10px;
+	color: #3A3A3A;
+	font-style: italic;
+}
+
+#tabs div{
+	#border: 1px solid red;
+	background-color: #FFFFFF;
+	padding: 15px;
+}
+
+#tabs p {
+	#padding: 10px;
+	line-height: 1.4em;
+	word-spacing: 2%;
+}
+
+aside {
+	float: left;
+	width: 400px;
+	height: 300px;
+	/*border: 2px solid red;*/
+	color: black;
+}
+
+article > p {
+	font-family: sans-serif;
+	line-height: 200%;
+}
+
+aside  > * {
+	padding-left: 10px;
+}
+/*Footer action*/
+
+footer {
+	clear: both;
+	background-color: #BFE309;
+	color: black;
+	height: 20px;
+	text-align: center;
+}
+
+
+/*miscalenous informatoin*/
+
+ul.misc li {
+	list-style-type: none;
+	position: relative;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	text-align: center;	
+}
+
+ul.misc a:hover {
+	background-color: blue;
+	color: white;
+}
+
+.testingText {
+	background-color: red;
+	color: blue;
+	margin-left: -10px;
+}
+
+/*this is copied from the index.css file*/

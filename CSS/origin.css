@@ -1,0 +1,176 @@
+body {
+	background-color: #DFF0EE;
+	color: #17FC35;
+	margin-top: 0px;
+
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 10px auto 0px auto;
+	outline: 1px solid #7B7F00;
+	height: 960px;
+}
+
+
+#logo {
+	height: 120px;
+	width: 260px;
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+#mypic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 86px;
+}
+
+#peruPic {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	left: 30px;
+}
+
+img#left {
+	cursor: pointer;
+	position: relative;
+	top: 80px;
+	left: 0px;
+	height: 40px;
+}
+
+
+#imageTarget{
+	position: relative;
+	top: 160px;
+	border: 2px solid red;
+	width: 436px;
+	height: 188px; /* 192px*/
+}
+
+img#right {
+	cursor: pointer;
+	position: relative;
+	left: 492px;
+	top: 40px;
+	height: 40px;
+}
+
+header > h1{
+	text-align: center;
+	color: black;
+	margin-bottom: 16px;
+}
+
+header h2{
+	/*margin: 10px auto 0px auto; */
+	text-align: center;
+	color: black;
+}
+
+
+nav {
+	background-color: #64666B;
+	height: 50px;
+	padding: 1px;
+}
+
+ul.navList li {
+	display: inline;
+	margin-right: 10px;
+	/*border: 1px solid red;*/
+	padding: 0px 5px 0px 5px;
+	font-weight: bolder;
+}
+
+
+ul.navList li:hover {
+	background-color: #FFFFFF;
+}
+
+ul.navList li a {
+	color: red;
+}
+
+li > a {
+	text-decoration: none;
+}
+
+
+/*worling on section elements (1-2)*/
+
+#sectionOne {
+	border-right-style: groove;
+	display: inline-block;
+	width: 592px;
+	height: 890px;
+	/*border: 2px solid blue;*/
+	float: left;
+	color: black;
+}
+
+#sectionOne > * {
+	padding: 0px 40px 0px 40px;
+}
+
+/*images will slide inside imgContainer*/
+#sectionOne > #imgContainer {
+	/*border: 1px solid green;*/
+	height: 192px;
+}
+
+aside {
+	float: left;
+	width: 400px;
+	height: 690px;
+	/*border: 2px solid red;*/
+	color: black;
+}
+
+article > p {
+	font-family: sans-serif;
+	line-height: 200%;
+}
+
+aside > * {
+	padding-left: 10px;
+}
+/*Footer action*/
+
+footer {
+	clear: both;
+	background-color: #BFE309;
+	color: black;
+	height: 20px;
+	text-align: center;
+}
+
+
+/*miscalenous informatoin*/
+
+ul.misc li {
+	list-style-type: none;
+	position: relative;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	text-align: center;	
+}
+
+ul.misc a:hover {
+	background-color: blue;
+	color: white;
+}
+
+.testingText {
+	background-color: red;
+	color: blue;
+	margin-left: -10px;
+}
+
+#testBox {
+	color: red;
+	font-size: 300%;
+}

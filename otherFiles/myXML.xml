@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<events>
+	<event>
+		<location>Lima, Peru</location>
+		<school>N/A</school>
+		<age>10</age>
+		<hobby>soccer</hobby>
+		<image>../images/peruImg.jpg</image>
+	</event>
+	<event>
+		<location>NJ, USA</location>
+		<school>Franklin School</school>
+		<age>13</age>
+		<hobby>basketball</hobby>
+		<image>images/USAFlag.jpg</image>
+	</event>
+	<event>
+		<location>Harrison, NJ</location>
+		<school>Rutgers University</school>
+		<age>21</age>
+		<hobby>programming</hobby>
+		<image>images/CSimg.jpg</image>
+	</event>
+</events>
+
